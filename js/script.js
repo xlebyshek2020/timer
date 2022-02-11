@@ -1,4 +1,6 @@
-'use strict'
+window.addEventListener('DOMContentLoaded', function() {
+
+    'use strict'
 
 let deadLine = '2022-05-02';
 
@@ -36,3 +38,6 @@ function setClock(id, endtime) {
 }
 
 setClock('timer', deadLine);
+
+
+});
